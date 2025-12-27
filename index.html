@@ -156,20 +156,21 @@
                     <fieldset>
                         <legend>IDENTITY VERIFICATION</legend>
                         <label for="destination">Full Destination</label>
-                        <input type="text" id="destination" name="destination" />
-                        <label for="ID">ID Code</label>
-                        <input type="text" id="ID" name="ID" />
+                        <input type="text" id="destination" name="destination" placeholder="Name" />
+                        <label for="ID">ID Code / Passport</label>
+                        <input type="text" id="ID" name="ID" placeholder="ID number"/>
                     </fieldset>
                     <fieldset>
                         <legend>FLIGHT PARAMETERS</legend>
-                        <input list="planets" name="planets"/>
+                        <label for="planets">Planet System</label>
+                        <input list="planets" name="planets" placeholder="Direction"/>
                         <datalist id="planets">
                             <option value="Kepler-186f"></option>
                             <option value="Nebula"></option>
                             <option value="Titan"></option>
                             <option value="Black Hole"></option>
                         </datalist>
-                        <label for="cabin-class"></label>
+                        <label for="cabin-class">Cabin Class</label>
                         <select id="cabin-class" name="cabin-class">
                             <option value="Economy">Stasis Pod</option>
                             <option value="Business">Quarters</option>
